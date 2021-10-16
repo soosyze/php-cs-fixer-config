@@ -1,0 +1,6 @@
+# Folders
+bin/
+vendor/
+
+# Files
+.php-cs-fixer.cache

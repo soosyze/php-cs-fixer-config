@@ -1,0 +1,21 @@
+{
+    "name": "soosyze/php-cs-fixer-config",
+    "type": "library",
+    "description": "Php-cs-fixer configurations used by projects maintained by Soosyze.",
+    "keywords": ["linter", "php", "soosyze"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2",
+        "friendsofphp/php-cs-fixer": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Soosyze\\PhpCsFixer\\": "src/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin/",
+        "optimize-autoloader": true,
+        "classmap-authoritative": true
+    }
+}
